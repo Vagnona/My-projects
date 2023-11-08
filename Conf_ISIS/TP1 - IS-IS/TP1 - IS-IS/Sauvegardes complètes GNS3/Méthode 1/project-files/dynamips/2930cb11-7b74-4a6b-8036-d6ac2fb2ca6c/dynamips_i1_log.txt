@@ -1,0 +1,34 @@
+Oct 26 11:37:42.019 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Oct 26 11:37:42.020 HYPERVISOR: Started on IP = localhost, TCP port = 56206.
+Oct 26 11:37:42.026 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 26 11:37:42.026 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/loicdiebolt/Library/Mobile Documents/com~apple~CloudDocs/Fac/S7/Routage intra-domaine/TP/TP1 - IS-IS/Sauvegardes complètes GNS3/Méthode 1/project-files/dynamips 
+Oct 26 11:37:42.026 GENERAL: working_dir=/Users/loicdiebolt/Library/Mobile Documents/com~apple~CloudDocs/Fac/S7/Routage intra-domaine/TP/TP1 - IS-IS/Sauvegardes complètes GNS3/Méthode 1/project-files/dynamips
+Oct 26 11:37:42.027 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/loicdiebolt/Library/Mobile Documents/com~apple~CloudDocs/Fac/S7/Routage intra-domaine/TP/TP1 - IS-IS/Sauvegardes complètes GNS3/Méthode 1/project-files/dynamips/2930cb11-7b74-4a6b-8036-d6ac2fb2ca6c 
+Oct 26 11:37:42.027 GENERAL: working_dir=/Users/loicdiebolt/Library/Mobile Documents/com~apple~CloudDocs/Fac/S7/Routage intra-domaine/TP/TP1 - IS-IS/Sauvegardes complètes GNS3/Méthode 1/project-files/dynamips/2930cb11-7b74-4a6b-8036-d6ac2fb2ca6c
+Oct 26 11:37:42.027 HYPERVISOR: exec_cmd: vm create A 1 c7200 
+Oct 26 11:37:42.028 VM: VM A created.
+Oct 26 11:37:42.029 HYPERVISOR: exec_cmd: vm set_con_tcp_port A 5008 
+Oct 26 11:37:42.029 HYPERVISOR: exec_cmd: c7200 get_mac_addr A 
+Oct 26 11:37:42.030 HYPERVISOR: exec_cmd: vm get_status A 
+Oct 26 11:37:42.030 HYPERVISOR: exec_cmd: vm slot_add_binding A 0 0 C7200-IO-FE 
+Oct 26 11:37:42.030 HYPERVISOR: exec_cmd: vm set_disk0 A 0 
+Oct 26 11:37:42.031 HYPERVISOR: exec_cmd: vm get_status A 
+Oct 26 11:37:42.031 HYPERVISOR: exec_cmd: vm set_idle_pc A 0x0 
+Oct 26 11:37:42.033 HYPERVISOR: exec_cmd: vm set_ios A /Users/loicdiebolt/GNS3/images/IOS/C7200-AD.BIN 
+Oct 26 11:37:42.033 HYPERVISOR: exec_cmd: c7200 set_mac_addr A ca01.0e32.0000 
+Oct 26 11:37:42.034 HYPERVISOR: exec_cmd: vm set_nvram A 512 
+Oct 26 11:37:42.034 HYPERVISOR: exec_cmd: vm set_ram A 512 
+Oct 26 11:37:42.034 HYPERVISOR: exec_cmd: vm get_status A 
+Oct 26 11:37:42.035 HYPERVISOR: exec_cmd: vm slot_remove_binding A 0 0 
+Oct 26 11:37:42.035 HYPERVISOR: exec_cmd: vm get_status A 
+Oct 26 11:37:42.035 HYPERVISOR: exec_cmd: vm slot_add_binding A 0 0 C7200-IO-2FE 
+Oct 26 11:37:42.390 HYPERVISOR: exec_cmd: nio create_udp udp-f572541c-edfa-42cb-9ba9-e76fef9074ee 10002 127.0.0.1 10003 
+Oct 26 11:37:42.627 HYPERVISOR: exec_cmd: vm slot_add_nio_binding A 0 1 udp-f572541c-edfa-42cb-9ba9-e76fef9074ee 
+Oct 26 11:37:42.628 HYPERVISOR: exec_cmd: vm get_status A 
+Oct 26 11:40:03.498 HYPERVISOR: exec_cmd: vm get_status A 
+Oct 26 11:40:03.499 HYPERVISOR: exec_cmd: vm extract_config A 
+Oct 26 11:40:03.499 HYPERVISOR: exec_cmd: vm delete A 
+Oct 26 11:40:03.499 VM: VM A destroyed.
+Oct 26 11:40:03.500 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 26 11:40:03.922 HYPERVISOR: Stopped.
+Oct 26 11:40:03.922 GENERAL: reset done.
